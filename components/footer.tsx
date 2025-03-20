@@ -28,10 +28,21 @@ export default function Footer(){
         </ul>
 
         <div className="flex gap-5 mr-30">
-        <Image src="/twitter.png" alt="twitter" loading="eager" className=" mt-7 mb-7" width={34} height={34} />
-        <Image src="/github.png" alt="github" loading="eager" className=" mt-7 mb-7" width={34} height={34} />
-        <Image src="/telegram.png" alt="telegram" loading="eager" className="text-gray-700 mt-7 mb-7" width={34} height={34} />
-        <Image src="/discord.png" alt="discord" loading="eager" className=" mt-7 mb-7" width={34} height={34} />
+          <Link href={"https://x.com/Mises001"}>
+              <Image src="/twitter.png" alt="twitter" loading="eager" className=" mt-7 mb-7" width={34} height={34} />
+          </Link>
+
+          <Link href={"https://github.com/mises-id"}>
+              <Image src="/github.png" alt="github" loading="eager" className=" mt-7 mb-7" width={34} height={34} />
+          </Link>
+
+          <Link href={"https://t.me/Misesofficial"}>
+              <Image src="/telegram.png" alt="telegram" loading="eager" className="text-gray-700 mt-7 mb-7" width={34} height={34} />
+          </Link>
+
+          <Link href={"https://discord.com/invite/EPYKVD54X8"}>
+              <Image src="/discord.png" alt="discord" loading="eager" className=" mt-7 mb-7" width={34} height={34} />
+          </Link>
 
         </div>
 
