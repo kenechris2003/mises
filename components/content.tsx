@@ -16,7 +16,7 @@ export default function Content(){
                         <Link href={"https://apps.apple.com/us/app/mises-browser/id6451129542"}>
                         <div className="flex border border-black rounded-4xl w-fit">
                         
-                    <Image src="/play.png" alt="Logo" loading="eager" className="ml-8 mt-3 mb-3"  width={24} height={12} />
+                    <Image src="/Play.png" alt="Logo" loading="eager" className="ml-8 mt-3 mb-3"  width={24} height={12} />
                         
                         <p className="text-black justify-center items-center p-5 pt-3 pb-3 pr-6 pl-3">Andriod</p>
                 </div>
