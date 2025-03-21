@@ -4,7 +4,7 @@ import Link from "next/link";
 export default function Footer() {
   return (
     <footer className="w-full h-full">
-      <div className="flex flex-col lg:flex-row bg-gray-900 w-full h-full justify-between items-center lg:items-start pt-9 pb-9 px-4">
+      <div className="flex flex-col lg:flex-row bg-gray-900 pl-12 pr-10 w-full h-full justify-between items-center lg:items-start pt-9 pb-9 px-4">
         {/* Logo Section */}
         <div className="mb-6 lg:mb-0">
           <Image

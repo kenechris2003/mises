@@ -52,7 +52,7 @@ export default function Content() {
           <p className="text-black text-base sm:text-lg lg:text-2xl font-sans mt-2">
             Take a look at the guide to learn how to use Mises Browser.
           </p>
-          <div className="flex gap-2 mt-4 mb-14">
+          <div className="flex gap-2 mt-4 mb-14 ml-20 md:ml-43 lg:ml-1">
             <Link href={"https://www.mises.site/guide"}>
               <div className="flex border border-blue-600 rounded-4xl w-fit">
                 <p className="text-blue-600 pt-3 pb-3 pl-7 pr-7">Visit Guide</p>
